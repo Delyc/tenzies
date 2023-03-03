@@ -64,7 +64,7 @@ export default function App() {
 
   return (
     <main className="flex w-full h-screen justify-center items-center ">
-      <div className="bg-neutral-100 h-96 max-w-3xl rounded-md p-5 flex flex-col justify-around items-center">
+      <div className="bg-white h-96 max-w-3xl rounded-md p-5 flex flex-col justify-around items-center">
         {tenzies && <Confetti />}
         <h1 className="text-4xl m-0">Tenzies</h1>
         <p className="font-normal mt-0 text-center">
